@@ -9,7 +9,7 @@
   "main": "index.js",
  
   "scripts": {
-   "start":"npm start"
+   "start":"npm start",
     "build":"npm install",
  
    
