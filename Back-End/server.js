@@ -15,8 +15,7 @@ app.use(cors());
 
 // Endpoint to initialize the database
 app.post('/initialize-database', (req, res) => {
-    // Replace this with your actual implementation to fetch and initialize transactions
-    // Sample code:
+  
     fetch('https://s3.amazonaws.com/roxiler.com/product_transaction.json')
         .then(response => response.json())
         .then(data => {
